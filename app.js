@@ -13,12 +13,17 @@ menu.addEventListener('click', function(){
 //Modal Items
 const modal = document.getElementById('email-modal');
 const openBtn = document.getElementById('main__btn');
+const openBtn2 = document.getElementById('main__btn2');
 const closeBtn = document.getElementsByClassName('close-btn')[0];
 
 //Click events
 openBtn.addEventListener('click', () => {
     modal.style.display = 'block';
 });
+
+openBtn2.addEventListener('click',() => {
+    modal.style.display = 'block';
+})
 
 closeBtn.addEventListener('click', () => {
     modal.style.display = 'none';

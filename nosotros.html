@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@400;700&display=swap" rel="stylesheet">    <body>
+
         <!-- Navbar Section -->
         <nav class="navbar">
             <div class="navbar__container">
@@ -29,8 +30,11 @@
                     <li class="navbar__item">
                         <a href="nosotros.html" class="navbar__links">Nosotros</a>
                     </li>
+                    <li class="navbar__item">
+                        <a href="postulate.html" class="navbar__links">Postulate</a>
+                    </li>
                     <li class="navbar__btn">
-                        <a href="/" class="button">Inscibírse</a>
+                        <button class="button" id="main__btn2"><a href="#" id="ins">Inscribírse</a></button>
                     </li>
                 </ul>
             </div>
@@ -39,8 +43,38 @@
         <!-- Hero Section -->
         
 
-         <!-- Modal Section -->
- 
+        <!-- Modal Section -->
+        <div class="modal" id="email-modal">
+            <div class="modal-content">
+                <span class="close-btn">&times;</span>
+                <div class="modal-content-left">
+                    <img src="./img/pic1.svg" alt="" id='modal-img' >
+                </div>
+                <div class="modal-content-right">
+                    <form action="javascript:Validate(id)" method="GET" class="modal-form" id="form">
+                    <h1>¡Unite a nosotros hoy! Crea tu cuenta completando la información de abajo.</h1>
+                    <div class="form-validation">
+                        <input type="text" class="modal-input" id="name" name="name" placeholder="Ingresá tu nombre">
+                        <p>Error Message</p>
+                    </div>
+                    <div class="form-validation">
+                        <input type="email" class="modal-input" id="email" name="email" placeholder="Ingresá tu mail">
+                        <p>Error Message</p>
+                    </div>
+                    <div class="form-validation">
+                        <input type="password" class="modal-input" id="password" name="password" placeholder="Ingresá tu contraseña">
+                        <p>Error Message</p>
+                    </div>
+                    <div class="form-validation">
+                        <input type="password" class="modal-input" id="password-confirm" name="password" placeholder="Confirmá tu contraseña">
+                        <p>Error Message</p>
+                    </div>
+                    <input type="submit" class="modal-input-btn" value="Sign Up">
+                    <span class="modal-input-login">¿Ya tenes una cuenta? Iniciá sesión <a href="#">acá</a></span>
+                    </form>
+                </div>
+            </div>
+        </div> 
 
         <!-- Services Section -->
 
@@ -115,6 +149,6 @@
 
 
 
-        <script src="app.js"></script>
+        <script src="./app.js"></script>
     </body>
 </html>
