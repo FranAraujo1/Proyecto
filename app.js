@@ -63,23 +63,23 @@ function checkRequired(inputArr){
     })
 }
 
-// //Check input lenght
-function checkLength(input, min, max){
-    if(input.value.lenght < min){
-        showError(input, `${getFieldName(input)} must be at least ${min} characters`);
-    } else if (input.value.lenght > max) {
-        showError(input, `${getFieldName(input)} must be less than ${max} characters`);
-    } else{
-        showValid(input);
-    }
-}
+// // //Check input lenght
+// function checkLength(input, min, max){
+//     if(input.value.lenght < min){
+//         showError(input, `${getFieldName(input)} must be at least ${min} characters`);
+//     } else if (input.value.lenght > max) {
+//         showError(input, `${getFieldName(input)} must be less than ${max} characters`);
+//     } else{
+//         showValid(input);
+//     }
+// }
 
-//Check passwords match
-function passwordMatch(input1,input2){
-    if(input1.value !== input2.value){
-        showError(input2,'Passwords do not match');
-    }
-}
+// //Check passwords match
+// function passwordMatch(input1,input2){
+//     if(input1.value !== input2.value){
+//         showError(input2,'Passwords do not match');
+//     }
+// }
 
 //Get fieldname
 function getFieldName(input){
