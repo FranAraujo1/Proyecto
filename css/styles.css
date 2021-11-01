@@ -373,7 +373,7 @@
 }
 
 .services h1{
-    background-color: #ff8177;
+    background-color: yellow;
     background-image: linear-gradient(
         to right,
         rgb(58, 146, 58) 0%,
@@ -439,7 +439,7 @@
     transform: scale(1.075);
     transition: 0.2s ease-in;
     cursor: pointer;
-}
+}    
 
 @media screen and (max-width: 960px){
     .services{
@@ -581,4 +581,3 @@
         padding: 10px;
         width: 100%;
     }
-}
