@@ -1,0 +1,53 @@
+.sedes {
+  background-color: #141414;
+}
+
+.sedes h1 {
+  font-size: 3rem;
+  text-align: center;
+  background-color: #af7c0dcb;
+  background-image: linear-gradient(to top, white 0%, #af7c0dcb 70%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+.sedes_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card__sede {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: grey;
+  padding: 3rem;
+  margin: 2rem;
+}
+
+.titulo__sede {
+  margin-bottom: 2.5rem;
+  font-size: 30px;
+}
+
+figcaption {
+  margin-top: 3rem;
+}
+
+figcaption p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  word-spacing: 5px;
+  letter-spacing: 3px;
+  text-align: justify;
+}
+
+.imagen__sede {
+  width: 1000px;
+  height: 500px;
+}
