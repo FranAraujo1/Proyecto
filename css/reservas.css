@@ -1,40 +1,45 @@
-.form-container{
-    display: flex;
-    position: static;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #141414;
+.form-container {
+  display: flex;
+  position: static;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #141414;
 }
 
-
-.form{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: rgb(182, 161, 124);
-    margin: 10% auto;
-    width: 80%;
-    box-shadow: 0 5px 8px 0 rgba(107, 91, 91, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
-    border-radius: 15px;
-    min-height: 600px;
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(182, 161, 124);
+  margin: 10% auto;
+  width: 80%;
+  box-shadow: 0 5px 8px 0 rgba(107, 91, 91, 0.2),
+    0 7px 20px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  min-height: 600px;
 }
 
-.form-items{
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.form-items {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.form-items h1{
-    font-size: 1rem;
-    text-align: start;
-    width: 80%;
-    margin-bottom: 1rem;
+.form-items h1 {
+  font-size: 2rem;
+  width: 80%;
+  margin-bottom: 1rem;
 }
 
-.control-label{
-    
+.form-validation {
+  margin-top: 10px;
+  text-align: justify;
+}
+
+.btn {
+  text-align: center;
+  margin-top: 40px;
 }

@@ -1,212 +1,216 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nombre APP Website</title>
-    <link rel="stylesheet" href="./css/styles.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@400;700&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">   
-    
-
-    <body>
-        
-    
-    <!-- Navbar Section -->
-
-        <nav class="navbar">
-            <div class="navbar__container">
-                <a href="index.html" id="navbar__logo">
-                    <i class="fas fa-futbol"></i> FUTBOL
-                </a>
-                <div class="navbar__toggle" id="mobile-menu">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                </div>
-                <ul class="navbar__menu">
-                    <li class="navbar__item">
-                        <a href="index.html" class="navbar__links">Inicio</a>
-                    </li>
-                    <li class="navbar__item">
-                        <a href="reservas.html" class="navbar__links">Reservas</a>
-                    </li>
-                    <li class="navbar__item">
-                        <a href="nosotros.html" class="navbar__links">Nosotros</a>
-                    </li>
-                    <li class="navbar__item">
-                        <a href="postulate.html" class="navbar__links">Postulate</a>
-                    </li>
-                    <li class="navbar__btn">
-                        <button class="button" id="main__btn2"><a href="#" id="ins">Inscribírse</a></button>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nombre APP Website</title>
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@400;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
 
 
-    <!-- Main Section -->
+<body>
 
- 
 
-    <!-- Reservas -->
-    
-    <div class="form-container">
-        <div class="form">
-            <form action="" class="form-items">
-                <h1>Hacé tu Reserva</h1>
-                <div class="form-validation">
-                    <label class="control-label">Nombre</label>
-                    <input type="text" class="form-control" name="fname" id="fname">
-                </div>
-            
-                <div class="form-validation">
-                    <label class="control-label">Apellido</label>
-                    <input type="text" class="form-control" name="lname" id="lname">
-                </div>
+  <!-- Navbar Section -->
 
-                <div class="form-validation">
-                    <label class="control-label">Edad</label>
-                    <input type="number" class="form-control" name="edad" id="edad">
-                </div>
+  <nav class="navbar">
+    <div class="navbar__container">
+      <a href="index.html" id="navbar__logo">
+        <i class="fas fa-futbol"></i> FUTBOL
+      </a>
+      <div class="navbar__toggle" id="mobile-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+      <ul class="navbar__menu">
+        <li class="navbar__item">
+          <a href="index.html" class="navbar__links">Inicio</a>
+        </li>
+        <li class="navbar__item">
+          <a href="reservas.html" class="navbar__links">Reservas</a>
+        </li>
+        <li class="navbar__item">
+          <a href="nosotros.html" class="navbar__links">Nosotros</a>
+        </li>
+        <li class="navbar__item">
+          <a href="postulate.html" class="navbar__links">Postulate</a>
+        </li>
+        <li class="navbar__btn">
+          <button class="button" id="main__btn2"><a href="#" id="ins">Inscribírse</a></button>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
-                <div class="form-validation">
-                    <label class="control-label">Sexo</label>
-                    <select id="sexo" name="sexo" required="">
-                        <option selected="" disabled="">Elegir sexo</option>
-                        <option>Femenino</option>
-                        <option>Masculino</option>
-                        <option>Otro</option>
-                        <option>Prefiero no decir</option>
-                    </select>
-                </div>
-        
-                <div class="form-validation">
-                    <label class="control-label">Email</label>
-                    <input type="text" class="form-control" name="email" id="email">
-                </div>
 
-                <div class="form-validation">
-                    <label class="control-label">Teléfono Celular</label>
-                    <input type="tel" class="form-control" name="tel" id="tel">
-                    <small>EJ: 11-2345-6789</small>
-                </div>
+  <!-- Main Section -->
 
-                <div class="form-validation">
-                    <label for="cars">Choose a car:</label>
-                    <select id="cars">
-                        <option value="volvo">Volvo</option>
-                        <option value="saab">Saab</option>
-                        <option value="mercedes">Mercedes</option>
-                        <option value="audi">Audi</option>
-                    </select>
-                </div>
 
-                <div class="form-validation">
-                    <label class="control-label">Elegir Sede</label>
-                    <select id="sede" name="sede" required="">
-                        <option selected="" disabled="">Elegir sede</option>
-                        <option>Sede</option>
-                        <option>Sede</option>
-                        <option>Sede</option>
-                        <option>Sede</option>
-                        <option>Sede</option>
-                    </select>
-                </div>
-            
-                <div class="form-validation">
-                    <label class="control-label">Fecha y Hora</label>
-                    <input type='datetime-local' class="form-control"/>
-                </div>
-                
-                <div class="form-validation">
-                    <label class="control-label">Elegir Categoría</label>
-                    <select id="sede" name="sede" required="">
-                        <option selected="" disabled="">Elegir categoría</option>
-                        <option>Fútbol 11</option>
-                        <option>Fútbol 7</option>
-                        <option>Fútbol 5</option>
-                    </select>
-                </div>
 
-                
-                <input type="submit" class="btn btn-primary" value="Submit">
-            </form>
+  <!-- Reservas -->
+
+  <div class="form-container">
+    <div class="form">
+      <form action="" class="form-items">
+        <h1>Hacé tu Reserva</h1>
+        <div class="form-validation">
+          <label class="control-label">Nombre</label>
+          <input type="text" class="form-control" name="fname" id="fname">
         </div>
-    </div>    
-    
-    
 
-    <!-- Footer Section -->
-        <div class="footer__container">
-            <div class="footer__links">
-                <div class="footer__link--wrapper">
-                    <div class="footer__link--items">
-                        <h2>Nosotros</h2>
-                        <a href="./sign_up">How it works</a>
-                        <a href="/">Testimonials</a>
-                        <a href="/">Careers</a>
-                        <a href="/">Investments</a>
-                        <a href="/">Terms</a>
-                    </div>
-                    <div class="footer__link--items">
-                        <h2>Contacto</h2>
-                        <a href="/">Contact</a>
-                        <a href="/">Support</a>
-                        <a href="/">Destinations</a>
-                        <a href="/">Sponsors</a>
-                    </div>
-                </div>
-                <div class="footer__link--wrapper">
-                    <div class="footer__link--items">
-                        <h2>Videos</h2>
-                        <a href="/">Submit Video</a>
-                        <a href="/">Ambassador</a>
-                        <a href="/">Agency</a>
-                        <a href="/">Influencers</a>
-                    </div>
-                    <div class="footer__link--items">
-                        <h2>Redes</h2>
-                        <a href="/">Instagram</a>
-                        <a href="/">Facebook</a>
-                        <a href="/">Youtube</a>
-                        <a href="/">Twitter</a>
-                        <a href="/">TikTok</a>
-                    </div>
-                </div>
-            </div>
-        
-            <div class="social__media">
-                <div class="social__media--wrap">
-                    <div class="footer__logo">
-                        <a href="/" id="footer__logo"><i class="fas fa-futbol"></i>FUTBOL</a>
-                    </div>
-                    <p class="website__rights">FUTBOL 2021. Todos los derechos reservados</p>
-                    <div class="social__icons">
-                        <a href="/" class="social__icon--link" target="_blank">
-                            <i class="fab fa-facebook"></i>
-                        </a>
-                        <a href="/" class="social__icon--link" target="_blank">
-                            <i class="fab fa-instagram"></i>
-                        </a>
-                        <a href="/" class="social__icon--link" target="_blank">
-                            <i class="fab fa-twitter"></i>
-                        </a>
-                        <a href="/" class="social__icon--link" target="_blank">
-                            <i class="fab fa-linkedin"></i>
-                        </a>
-                        <a href="/" class="social__icon--link" target="_blank">
-                            <i class="fab fa-youtube"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
+        <div class="form-validation">
+          <label class="control-label">Apellido</label>
+          <input type="text" class="form-control" name="lname" id="lname">
+        </div>
+
+        <div class="form-validation">
+          <label class="control-label">Edad</label>
+          <input type="number" class="form-control" name="edad" id="edad">
+        </div>
+
+        <div class="form-validation">
+          <label class="control-label">Sexo</label>
+          <select id="sexo" name="sexo" required="">
+            <option selected="" disabled="">Elegir sexo</option>
+            <option>Femenino</option>
+            <option>Masculino</option>
+            <option>Otro</option>
+            <option>Prefiero no decir</option>
+          </select>
+        </div>
+
+        <div class="form-validation">
+          <label class="control-label">Email</label>
+          <input type="text" class="form-control" name="email" id="email">
+        </div>
+
+        <div class="form-validation">
+          <label class="control-label">Teléfono Celular</label>
+          <input type="tel" class="form-control" name="tel" id="tel">
+          <small>EJ: 11-2345-6789</small>
+        </div>
+
+        <div class="form-validation">
+          <label for="cars">Choose a car:</label>
+          <select id="cars">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="mercedes">Mercedes</option>
+            <option value="audi">Audi</option>
+          </select>
+        </div>
+
+        <div class="form-validation">
+          <label class="control-label">Elegir Sede</label>
+          <select id="sede" name="sede" required="">
+            <option selected="" disabled="">Elegir sede</option>
+            <option>Sede</option>
+            <option>Sede</option>
+            <option>Sede</option>
+            <option>Sede</option>
+            <option>Sede</option>
+          </select>
+        </div>
+
+        <div class="form-validation">
+          <label class="control-label">Fecha y Hora</label>
+          <input type='datetime-local' class="form-control" />
+        </div>
+
+        <div class="form-validation">
+          <label class="control-label">Elegir Categoría</label>
+          <select id="sede" name="sede" required="">
+            <option selected="" disabled="">Elegir categoría</option>
+            <option>Fútbol 11</option>
+            <option>Fútbol 7</option>
+            <option>Fútbol 5</option>
+          </select>
         </div>
 
 
+        <input type="submit" class="btn btn-primary" value="Submit">
+      </form>
+    </div>
+  </div>
 
-        <script src="./app.js"></script>
-    </body>
+
+
+  <!-- Footer Section -->
+  <div class="footer__container">
+    <div class="footer__links">
+      <div class="footer__link--wrapper">
+        <div class="footer__link--items">
+          <h2>Nosotros</h2>
+          <a href="./sign_up">How it works</a>
+          <a href="/">Testimonials</a>
+          <a href="/">Careers</a>
+          <a href="/">Investments</a>
+          <a href="/">Terms</a>
+        </div>
+        <div class="footer__link--items">
+          <h2>Contacto</h2>
+          <a href="/">Contact</a>
+          <a href="/">Support</a>
+          <a href="/">Destinations</a>
+          <a href="/">Sponsors</a>
+        </div>
+      </div>
+      <div class="footer__link--wrapper">
+        <div class="footer__link--items">
+          <h2>Videos</h2>
+          <a href="/">Submit Video</a>
+          <a href="/">Ambassador</a>
+          <a href="/">Agency</a>
+          <a href="/">Influencers</a>
+        </div>
+        <div class="footer__link--items">
+          <h2>Redes</h2>
+          <a href="/">Instagram</a>
+          <a href="/">Facebook</a>
+          <a href="/">Youtube</a>
+          <a href="/">Twitter</a>
+          <a href="/">TikTok</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="social__media">
+      <div class="social__media--wrap">
+        <div class="footer__logo">
+          <a href="/" id="footer__logo"><i class="fas fa-futbol"></i>FUTBOL</a>
+        </div>
+        <p class="website__rights">FUTBOL 2021. Todos los derechos reservados</p>
+        <div class="social__icons">
+          <a href="/" class="social__icon--link" target="_blank">
+            <i class="fab fa-facebook"></i>
+          </a>
+          <a href="/" class="social__icon--link" target="_blank">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="/" class="social__icon--link" target="_blank">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="/" class="social__icon--link" target="_blank">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="/" class="social__icon--link" target="_blank">
+            <i class="fab fa-youtube"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <script src="./app.js"></script>
+</body>
+
 </html>
